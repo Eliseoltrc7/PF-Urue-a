@@ -7,19 +7,19 @@
 
 /* barra de navegacion*/
 
-.navbar-brand img{
+.navbar-brand img {
   width: 3.4em;
 }
 
-.navbar-brand{
+.navbar-brand {
   align-items: center;
 }
 
-.navbar-nav a{
+.navbar-nav a {
   color: #000000;
 }
 
-.container-fluid .navbar-nav{
+.container-fluid .navbar-nav {
   display: flex;
   justify-content: space-between;
 }
@@ -39,6 +39,7 @@ nav a:hover {
 .titulo-centro {
   text-align: center;
   font-size: 1.8em;
+  padding-top: 1em;
 }
 
 .skull-black {
@@ -883,7 +884,8 @@ nav a:hover {
   .logo {
     align-items: center;
   }
-  .logo img{
+
+  .logo img {
     width: 1.5em;
     height: auto;
   }
@@ -980,9 +982,9 @@ nav a:hover {
     margin-bottom: 3%;
   }
 
-  
+
   /* producto */
-  
+
   .producto-contenido {
     font-size: 0.4em;
   }
@@ -990,7 +992,7 @@ nav a:hover {
   .titulo-producto {
     font-size: 0.5em;
   }
-  
+
   .producto-centro {
     font-size: 0.5em;
 
@@ -1002,7 +1004,7 @@ nav a:hover {
     justify-content: center;
     transform: translateX(-1.3em);
   }
-  
+
   .estilo-a .img-container .promo {
     font-size: 0.5em;
     padding: 0.4em
@@ -1013,18 +1015,18 @@ nav a:hover {
     text-align: start;
   }
 
-  .ordenado .estilo-a .img-container img{
+  .ordenado .estilo-a .img-container img {
     width: 100%;
   }
 
-  .ordenado .estilo-a p{
+  .ordenado .estilo-a p {
     font-size: 0.5em;
   }
 
-  .ordenado .estilo-a strong{
+  .ordenado .estilo-a strong {
     font-size: 0.5em;
   }
-  
+
   /* nosotros */
 
   .titulo-nosotros {
@@ -1072,8 +1074,9 @@ nav a:hover {
   .contenido-vision {
     font-size: 0.4em;
   }
+
   /* galeria */
-  
+
   .titulo-parrafo-galeria h1 {
     font-size: 0.4em;
   }
@@ -1081,35 +1084,40 @@ nav a:hover {
   .titulo-parrafo-galeria p {
     font-size: 0.3em;
   }
-  
+
   /* contacto */
 
-  .titulo-contacto{
+  .titulo-contacto {
     font-size: 0.5em;
     padding-top: 1em;
   }
 
-.svg-conteiner a svg{
-  width: 40%;
-  padding-left: 30%;
-}
+  .svg-conteiner {
+    width: 100%;
+    padding-left: 3.5em;
+  }
+
+  .svg-conteiner a svg {
+    width: 50%;
+    padding-right: 10%;
+  }
 
 
-  .contenido-contacto{
+  .contenido-contacto {
     font-size: 0.4em;
   }
 
   .info-contact {
     font-size: 0.4em;
   }
-  
+
   .contenedor .form {
     font-size: 0.5em;
   }
 
-  .ubicacion{
+  .ubicacion {
     font-size: 0.5em;
   }
-  
+
 
 }
