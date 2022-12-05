@@ -1,3 +1,6 @@
+@import "variables";
+@import "mixin";
+
 /* productos */
 /* encabezado producto */
 
@@ -45,7 +48,7 @@
         }
 
         text-decoration: none;
-        color: black;
+        color: $color-principal;
         font-size: 1em;
     }
 
@@ -65,9 +68,9 @@
             top: 0.5em;
             left: 0;
             font-size: 0.8em;
-            background: rgb(0, 0, 0);
+            background: $color-principal;
             padding: 0.8em;
-            color: rgb(255, 255, 255);
+            color: $color-secundario;
             border-bottom-right-radius: 1.4em;
             border-top-right-radius: 1.4em;
         }

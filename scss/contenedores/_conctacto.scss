@@ -1,3 +1,7 @@
+@import "variables";
+@import "mixin";
+
+
 /* contacto */
 .titulo-contacto {
     text-align: center;
@@ -23,13 +27,13 @@
 
     a {
         svg {
-            color: black;
+            color: $color-principal;
             width: 70%;
         }
 
         :hover {
 
-            color: grey;
+            color: $color-hover;
         }
     }
 
@@ -44,7 +48,7 @@
 article{
     .contenedor {
         .form {
-            background-color: black;
+            background-color: $color-principal;
             width: 100%;
             max-width: 650px;
             margin: auto;
@@ -52,7 +56,7 @@ article{
             margin-top: 30px;
             padding-bottom: 30px;
             border-radius: 3px;
-            color: white;
+            color: $color-secundario;
     
             .form-label {
                 display: block;
@@ -62,7 +66,7 @@ article{
     
             .form-input {
                 .form-textarea {
-                    background-color: black;
+                    background-color: $color-principal;
                     border: none;
                     outline: none;
                     border-bottom: 2px solid;
@@ -88,15 +92,15 @@ article{
                 border: none;
                 padding: 15px 0;
                 cursor: pointer;
-                background-color: white;
-                color: black;
+                background-color: $color-secundario;
+                color: $color-principal;
             }
     
             .form-header {
                 .form-title {
                     font-weight: normal;
                     text-align: center;
-                    padding: 14px 0;
+                    padding: 1em 0;
                 }
             }
         }

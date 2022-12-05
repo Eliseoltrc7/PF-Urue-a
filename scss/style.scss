@@ -3,17 +3,16 @@
 @import "contenedores/galeria";
 @import "contenedores/conctacto";
 @import "contenedores/mq";
-
-
+@import "contenedores/variables";
+@import "contenedores/mixin";
+@import "contenedores/extend";
 
 /* reset */
 
-* {
-    font-family: 'Krona One', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+   @extend %estilos-pagina;
 }
+
 
 /* barra navegacion */
 
@@ -27,7 +26,7 @@
 
 .navbar-nav {
     a {
-        color: #000000;
+      color: $color-principal;
     }
 }
 
@@ -120,7 +119,7 @@ nav {
 
 .pie-pagina {
     width: 100%;
-    background-color: #000000;
+    background-color: $color-principal;
     display: grid;
 
     .grupo-1 {
@@ -147,16 +146,16 @@ nav {
         }
 
         .box {
-            background-color: #000000;
+            background-color: $color-principal;
             h2 {
-                color: #fff;
+                color: $color-secundario;
                 font-size: 1.2em;
                 margin-top: 1em;
                 
             }
 
             p {
-                color: #efefef;
+                color: $color-secundario;
                 margin-bottom: 0.6em;
                 margin-top: 1em;
             }
@@ -170,8 +169,8 @@ nav {
                 width: 2.8em;
                 height: 2.8em;
                 line-height: 2.8em;
-                color: #fff;
-                background-color: #212122;
+                color: $color-secundario;
+                background-color: $color-redes;
                 text-align: center;
                 transition: all 300ms ease;
             }
@@ -180,10 +179,10 @@ nav {
     }
 
     .grupo-2 {
-        background-color: #212122;
+        background-color: $color-terceario;
         padding: 0.9em 0.6em;
         text-align: center;
-        color: #fff;
+        color: $color-secundario;
 
         small {
             font-size: 0.9em;

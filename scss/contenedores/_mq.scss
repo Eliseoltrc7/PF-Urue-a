@@ -1,10 +1,10 @@
+@import "variables";
+@import "mixin";
+
 @media screen and (max-width:800px) {
     .pie-pagina {
         .grupo-1 {
-            width: 90%;
-            grid-template-columns: repeat(1, 1fr);
-            grid: gap 1em;
-            padding: 2, 1em 0em;
+            @include estilos-pie-grupo;
         }
     }
 }
@@ -14,11 +14,11 @@
 
     header {
         h2 {
-            font-size: 0.9em;
+            font-size: $medidas-nav-mq;
         }
 
         nav {
-            font-size: 0.9em;
+            font-size: $medidas-nav-mq;
         }
     }
 
@@ -36,10 +36,7 @@
 
  .pie-pagina{
      .grupo-1 {
-       width: 90%;
-       grid-template-columns: 1fr;
-       grid-gap: 0.5em;
-       padding: 0.5em 0em;
+        @include estilos-grupo-movil;
        .box{
         figure{
             img{
@@ -47,26 +44,26 @@
             }
         }
         .comunicate{
-            font-size: 0.5em;
+            font-size: $medidas-footer-mq;
             text-align: center;
         }
         .follow{
-            font-size: 0.5em;
+            font-size: $medidas-footer-mq;
             text-align: center;
         }
         p{
-            font-size: 0.4em;
+            font-size: $medidas-footer-mq;
             text-align: center;
         }
         .red-social{
             display: flex;
             justify-content: space-around;
             a{
-                width: 0.5em;
-                height: 0.5em;
-                font-size: 0.6em;
+                width: $medidas-footer-mq;
+                height: $medidas-footer-mq;
+                font-size: $medidas-font-mq;
                 text-align: center;
-                background-color: #000000;
+                background-color: $color-principal;
             }
         }
        }
@@ -85,7 +82,7 @@
     }
 
     .grid-conteiner-nosotros {
-        font-size: 0.6em;
+        font-size: $medidas-font-mq;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -110,7 +107,7 @@
     }
 
     .grid-conteiner-nosotros-a {
-        font-size: 0.6em;
+        font-size: $medidas-font-mq;
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
@@ -123,7 +120,7 @@
     }
 
     .contenido-vision {
-        font-size: 0.6em;
+        font-size: $medidas-font-mq;
     }
 
     /* galeria */
@@ -134,7 +131,7 @@
         }
 
         p {
-            font-size: 0.6em;
+            font-size: $medidas-font-mq;
         }
     }
 
@@ -145,11 +142,11 @@
     }
 
     .producto-contenido {
-        font-size: 0.6em;
+        font-size: $medidas-font-mq;
     }
 
     .producto-centro {
-        font-size: 0.6em;
+        font-size: $medidas-font-mq;
 
     }
 
@@ -167,21 +164,21 @@
             }
 
             p {
-                font-size: 0.5em;
+                font-size: $medidas-footer-mq;
             }
 
             strong {
-                font-size: 0.5em;
+                font-size: $medidas-footer-mq;
             }
 
             .promo {
-                font-size: 0.5em;
+                font-size: $medidas-footer-mq;
                 padding: 0.4em
             }
         }
 
         a {
-            font-size: 0.5em;
+            font-size: $medidas-footer-mq;
             text-align: start;
         }
     }
@@ -216,7 +213,7 @@
     .grid-conteiner-inicio {
         display: flex;
         flex-direction: column-reverse;
-        font-size: 0.5em;
+        font-size: $medidas-footer-mq;
         align-items: center;
         text-align: center;
         margin-bottom: 2em;
@@ -248,11 +245,11 @@
   }
 
   .contenido-contacto {
-    font-size: 0.6em;
+    font-size: $medidas-font-mq;
   }
 
   .info-contact {
-    font-size: 0.6em;
+    font-size: $medidas-font-mq;
   }
 
   .contenedor {

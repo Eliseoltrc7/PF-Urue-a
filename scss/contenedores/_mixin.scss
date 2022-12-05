@@ -1,0 +1,23 @@
+@mixin estilos-pie-grupo {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid: gap 1em;
+    padding: 2, 1em 0em;
+}
+
+@mixin estilos-grupo-movil {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid: gap 1em;
+    padding: 2, 1em 0em;
+    
+}
+
+@mixin grid-conteiner-n {
+    font-size: $medidas-font-mq;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1%;
+    
+}
