@@ -1,0 +1,272 @@
+@media screen and (max-width:800px) {
+    .pie-pagina {
+        .grupo-1 {
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid: gap 1em;
+            padding: 2, 1em 0em;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* barra */
+
+    header {
+        h2 {
+            font-size: 0.9em;
+        }
+
+        nav {
+            font-size: 0.9em;
+        }
+    }
+
+    .logo {
+        align-items: center;
+
+        img {
+            width: 1.5em;
+            height: auto;
+        }
+    }
+
+
+    /* pie de pagina */
+
+ .pie-pagina{
+     .grupo-1 {
+       width: 90%;
+       grid-template-columns: 1fr;
+       grid-gap: 0.5em;
+       padding: 0.5em 0em;
+       .box{
+        figure{
+            img{
+                width: 3em;
+            }
+        }
+        .comunicate{
+            font-size: 0.5em;
+            text-align: center;
+        }
+        .follow{
+            font-size: 0.5em;
+            text-align: center;
+        }
+        p{
+            font-size: 0.4em;
+            text-align: center;
+        }
+        .red-social{
+            display: flex;
+            justify-content: space-around;
+            a{
+                width: 0.5em;
+                height: 0.5em;
+                font-size: 0.6em;
+                text-align: center;
+                background-color: #000000;
+            }
+        }
+       }
+     }
+     .grupo-2{
+        font-size: 0.4em;
+     }
+ }
+
+    /* nosotros */
+
+    .titulo-nosotros {
+        font-size: 1em;
+        display: flex;
+        padding-left: 35%;
+    }
+
+    .grid-conteiner-nosotros {
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .skate-a {
+        width: 60%;
+        padding: 1%;
+    }
+
+
+    .mision-titulo {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .skate-b {
+        width: 60%;
+        display: flex;
+        padding: 1%;
+    }
+
+    .grid-conteiner-nosotros-a {
+        font-size: 0.6em;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .vision-titulo {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .contenido-vision {
+        font-size: 0.6em;
+    }
+
+    /* galeria */
+
+    .titulo-parrafo-galeria {
+        h1 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: 0.6em;
+        }
+    }
+
+    /* producto */
+
+    .titulo-producto {
+        font-size: 0.1em;
+    }
+
+    .producto-contenido {
+        font-size: 0.6em;
+    }
+
+    .producto-centro {
+        font-size: 0.6em;
+
+    }
+
+    .estilo-a {
+        .img-container {
+            height: 20em;
+            display: flex;
+            justify-content: center;
+            transform: translateX(-1.3em);
+
+            .img-container {
+                img {
+                    width: 100%;
+                }
+            }
+
+            p {
+                font-size: 0.5em;
+            }
+
+            strong {
+                font-size: 0.5em;
+            }
+
+            .promo {
+                font-size: 0.5em;
+                padding: 0.4em
+            }
+        }
+
+        a {
+            font-size: 0.5em;
+            text-align: start;
+        }
+    }
+
+    /* index */
+    section {
+        .titulo-centro {
+            font-size: 1em;
+        }
+
+        .grid-conteiner {
+            width: 98%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            font-size: 0.5em;
+        }
+    }
+
+
+
+    .skull-black {
+        width: 40%;
+    }
+
+    .skull-black-ad {
+        width: 40%;
+        margin-top: 3%;
+    }
+
+    .grid-conteiner-inicio {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 0.5em;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .titulo-b {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 3%;
+    }
+
+    /* contacto */
+
+    
+  .titulo-contacto {
+    font-size: 0.8em;
+    padding-top: 1em;
+  }
+
+  .svg-conteiner {
+    width: 100%;
+    padding-left: 3.5em;
+    a{
+        svg{  
+            width: 50%;
+            padding-right: 10%;
+        }
+    }
+  }
+
+  .contenido-contacto {
+    font-size: 0.6em;
+  }
+
+  .info-contact {
+    font-size: 0.6em;
+  }
+
+  .contenedor {
+    .form{ 
+        font-size: 0.6em;
+        width: 90%;
+    }
+  }
+
+  .ubicacion {
+    font-size: 0.8em;
+  }
+
+
+}
+
+

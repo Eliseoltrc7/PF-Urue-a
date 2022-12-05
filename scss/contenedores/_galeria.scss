@@ -1,0 +1,35 @@
+/* galeria */
+.titulo-parrafo-galeria {
+    h1 {
+        text-align: center;
+        font-size: 1em;
+        padding-top: 1em;
+    }
+
+    p {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+/* imagenes de galeria */
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.galeria-a {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}

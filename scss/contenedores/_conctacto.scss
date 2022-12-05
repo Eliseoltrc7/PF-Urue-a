@@ -1,0 +1,118 @@
+/* contacto */
+.titulo-contacto {
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 1em;
+}
+
+.contenido-contacto {
+    text-align: center;
+    font-size: 1em;
+}
+
+/* redes sociales contacto */
+
+.svg-conteiner {
+
+    padding: 1.5em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+
+    a {
+        svg {
+            color: black;
+            width: 70%;
+        }
+
+        :hover {
+
+            color: grey;
+        }
+    }
+
+}
+
+/* formulario de contacto */
+
+.info-contact {
+    text-align: center;
+    font-size: 1em;
+}
+article{
+    .contenedor {
+        .form {
+            background-color: black;
+            width: 100%;
+            max-width: 650px;
+            margin: auto;
+            padding: 5px 35px;
+            margin-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 3px;
+            color: white;
+    
+            .form-label {
+                display: block;
+                font-size: 16px;
+                position: relative;
+            }
+    
+            .form-input {
+                .form-textarea {
+                    background-color: black;
+                    border: none;
+                    outline: none;
+                    border-bottom: 2px solid;
+                    padding: 12px;
+                    margin-bottom: 20px;
+                    border-radius: 2px;
+                    font-size: 14px;
+                    width: 100%;
+                }
+            }
+    
+            .form-textarea {
+                resize: vertical;
+                max-height: 150px;
+                min-height: 50px;
+                width: 100%;
+            }
+    
+            .btn-submit {
+                width: 100%;
+                outline: none;
+                font-size: 16px;
+                border: none;
+                padding: 15px 0;
+                cursor: pointer;
+                background-color: white;
+                color: black;
+            }
+    
+            .form-header {
+                .form-title {
+                    font-weight: normal;
+                    text-align: center;
+                    padding: 14px 0;
+                }
+            }
+        }
+    }
+
+}
+
+
+.ubicacion {
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 1%;
+}
+
+.mapa {
+    width: 100%;
+    height: 80%;
+    padding-top: 1%;
+}

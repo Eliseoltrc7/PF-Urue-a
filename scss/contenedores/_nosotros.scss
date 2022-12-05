@@ -1,0 +1,67 @@
+/* nosotros */
+
+.titulo-nosotros {
+    font-size: 1.8em;
+    display: flex;
+    padding: 1%;
+
+}
+
+.grid-conteiner-nosotros {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+
+
+
+}
+
+.skate-a {
+    width: 41%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* mision */
+
+.grid-conteiner-nosotros-a {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.mision-titulo {
+    font-size: 1.8em;
+    align-items: flex-start;
+    padding: 1%;
+}
+
+.skate-b {
+    width: 40%;
+    display: flex;
+    padding: 1%;
+}
+
+/* vision */
+
+.vision-titulo {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 2%;
+
+
+}
+
+.contenido-vision {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2%;
+
+}
+
+.nosotros-d {
+    width: 100%;
+    height: auto;
+}
