@@ -6,11 +6,12 @@
 @import "contenedores/variables";
 @import "contenedores/mixin";
 @import "contenedores/extend";
+@import "contenedores/mq-tablet";
 
 /* reset */
 
-*{
-   @extend %estilos-pagina;
+* {
+    @extend %estilos-pagina;
 }
 
 
@@ -26,7 +27,7 @@
 
 .navbar-nav {
     a {
-      color: $color-principal;
+        color: $color-principal;
     }
 }
 
@@ -56,7 +57,7 @@ nav {
 
 .titulo-centro {
     text-align: center;
-    font-size: 1.8em;
+    font-size: $medidas-font-principal;
     padding-top: 1em;
 }
 
@@ -75,7 +76,7 @@ nav {
     flex-direction: row-reverse;
 
     p {
-        font-size: 1.2em;
+        font-size: $medias-index-texto;
         transform: translateX(1%) translateY(18%);
         display: flex;
     }
@@ -83,6 +84,8 @@ nav {
 
 .titulo-b {
     align-items: center;
+    margin-left: 0.5em;
+    font-size: $medidas-font-principal;
 }
 
 .grid-conteiner-inicio {
@@ -92,7 +95,7 @@ nav {
     display: flex;
 
     p {
-        font-size: 1.2em;
+        font-size: $medias-index-texto;
         transform:
             translateY(18%);
 
@@ -111,7 +114,7 @@ nav {
 }
 
 .texto-izq {
-    font-size: 1.2em;
+    font-size: $medias-index-texto;
 
 }
 
@@ -147,11 +150,12 @@ nav {
 
         .box {
             background-color: $color-principal;
+
             h2 {
                 color: $color-secundario;
-                font-size: 1.2em;
+                font-size: $medias-index-texto;
                 margin-top: 1em;
-                
+
             }
 
             p {

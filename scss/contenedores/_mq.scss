@@ -1,13 +1,7 @@
 @import "variables";
 @import "mixin";
+@import "extend";
 
-@media screen and (max-width:800px) {
-    .pie-pagina {
-        .grupo-1 {
-            @include estilos-pie-grupo;
-        }
-    }
-}
 
 @media (min-width: 320px) and (max-width: 480px) {
     /* barra */
@@ -33,45 +27,60 @@
 
 
     /* pie de pagina */
+    .pie-pagina {
+        .grupo-1 {
+            a {
+                font-size: 0.5em;
+            }
 
- .pie-pagina{
-     .grupo-1 {
-        @include estilos-grupo-movil;
-       .box{
-        figure{
-            img{
-                width: 3em;
+            .red-social {
+                a {
+                    width: 0.5em;
+                    height: 0.5em;
+                    font-size: 0.6em;
+                    text-align: center;
+                    background-color: #000000;
+                }
+            }
+
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr, );
+            grid-gap: 0.5em;
+            padding: 0.5em 0em;
+
+            .box {
+                .comunicate {
+                    font-size: 0.5em;
+                    text-align: center;
+                }
+
+                .follow {
+                    font-size: 0.5em;
+                }
+
+                p {
+                    font-size: 0.5em;
+                }
+
+                figure {
+                    img {
+                        width: 7em;
+                        align-items: center;
+                    }
+                }
+
+                .red-social {
+                    a {
+                        font-size: 0.5em;
+                    }
+                }
             }
         }
-        .comunicate{
-            font-size: $medidas-footer-mq;
-            text-align: center;
+
+        .grupo-2 {
+            font-size: 0.5em;
         }
-        .follow{
-            font-size: $medidas-footer-mq;
-            text-align: center;
-        }
-        p{
-            font-size: $medidas-footer-mq;
-            text-align: center;
-        }
-        .red-social{
-            display: flex;
-            justify-content: space-around;
-            a{
-                width: $medidas-footer-mq;
-                height: $medidas-footer-mq;
-                font-size: $medidas-font-mq;
-                text-align: center;
-                background-color: $color-principal;
-            }
-        }
-       }
-     }
-     .grupo-2{
-        font-size: 0.4em;
-     }
- }
+    }
 
     /* nosotros */
 
@@ -152,6 +161,14 @@
 
     .estilo-a {
         .img-container {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .estilo-a {
+        .img-container {
             height: 20em;
             display: flex;
             justify-content: center;
@@ -218,52 +235,52 @@
         text-align: center;
         margin-bottom: 2em;
     }
-
-    .titulo-b {
-        font-size: 1em;
-        text-align: center;
-        margin-top: 3%;
+    article{
+        .titulo-b {
+            font-size: 1em;
+            text-align: center;
+            margin-top: 3%;
+        }
     }
 
     /* contacto */
 
-    
-  .titulo-contacto {
-    font-size: 0.8em;
-    padding-top: 1em;
-  }
 
-  .svg-conteiner {
-    width: 100%;
-    padding-left: 3.5em;
-    a{
-        svg{  
-            width: 50%;
-            padding-right: 10%;
+    .titulo-contacto {
+        font-size: 0.8em;
+        padding-top: 1em;
+    }
+
+    .svg-conteiner {
+        width: 100%;
+        padding-left: 3.5em;
+
+        a {
+            svg {
+                width: 50%;
+                padding-right: 10%;
+            }
         }
     }
-  }
 
-  .contenido-contacto {
-    font-size: $medidas-font-mq;
-  }
-
-  .info-contact {
-    font-size: $medidas-font-mq;
-  }
-
-  .contenedor {
-    .form{ 
-        font-size: 0.6em;
-        width: 90%;
+    .contenido-contacto {
+        font-size: $medidas-font-mq;
     }
-  }
 
-  .ubicacion {
-    font-size: 0.8em;
-  }
+    .info-contact {
+        font-size: $medidas-font-mq;
+    }
+
+    .contenedor {
+        .form {
+            font-size: 0.6em;
+            width: 90%;
+        }
+    }
+
+    .ubicacion {
+        font-size: 0.8em;
+    }
 
 
 }
-
-

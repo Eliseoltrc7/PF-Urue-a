@@ -5,7 +5,7 @@
 /* encabezado producto */
 
 .producto-contenido {
-    font-size: 1em;
+    font-size: $medias-index-texto;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -13,17 +13,16 @@
 }
 
 .titulo-producto {
-    font-size: 1.5em;
+    font-size: $medias-index-texto;
     padding: 1%;
 }
 
 .producto-centro {
-    font-size: 1.5em;
-    padding-bottom: 1%;
+    font-size: $medias-index-texto;
+    text-align: center;
 }
 
 /* producto ropa */
-
 .ordenado {
     display: flex;
     justify-content: center;
@@ -32,33 +31,35 @@
     margin-bottom: 2%;
 }
 
-
-.producto-centro {
-    text-align: center;
-    font-size: 1.8em;
-}
-
 .estilo-a {
     width: 33%;
     margin-right: 2%;
 
     a {
-        :hover {
-            text-decoration: underline;
-        }
-
         text-decoration: none;
-        color: $color-principal;
+        color: black;
         font-size: 1em;
+    }
+
+    :hover {
+        text-decoration: underline;
+    }
+    
+    p{
+        font-size: $medias-index-texto;
     }
 
     .img-container {
         overflow: hidden;
-        height: 400px;
+        height: 25em;
         position: relative;
 
+        :hover {
+            transform: scale(1.2);
+        }
+
         img {
-            width: 300px;
+            width: 18.7em;
             position: absolute;
             transition: all 0.5s;
         }
@@ -68,9 +69,9 @@
             top: 0.5em;
             left: 0;
             font-size: 0.8em;
-            background: $color-principal;
+            background: rgb(0, 0, 0);
             padding: 0.8em;
-            color: $color-secundario;
+            color: rgb(255, 255, 255);
             border-bottom-right-radius: 1.4em;
             border-top-right-radius: 1.4em;
         }
